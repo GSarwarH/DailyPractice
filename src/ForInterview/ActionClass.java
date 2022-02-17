@@ -20,6 +20,8 @@ public class ActionClass {
 		WebElement password = driver.findElement(By.xpath("//input[@id = 'txtPassword']"));
 		WebElement loginButton = driver.findElement(By.xpath("//input[@id = 'btnLogin']"));
 		
+		
+		//this is a comment
 		email.sendKeys("Admin");
 		password.sendKeys("admin123");
 		loginButton.click();
